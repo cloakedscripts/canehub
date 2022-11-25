@@ -2,5 +2,7 @@ local ui = Instance.new("ScreenGui")
 ui.Name = "Main"
 ui.ResetOnSpawn = false
 
+for i,v in pairs(game.Players.LocalPlayer.PlayerGui:GetChildren()) do if v.Name == "Main" then v:Destroy() end end 
+
 ui.Parent = game.Players.LocalPlayer.PlayerGui
 warn("Created UI")
