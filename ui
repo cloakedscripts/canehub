@@ -1,0 +1,6 @@
+local ui = Instance.new("ScreenGui")
+ui.Name = "Main"
+ui.ResetOnSpawn = false
+
+ui.Parent = game.Players.LocalPlayer.PlayerGui
+warn("Created UI")
